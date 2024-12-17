@@ -17,7 +17,7 @@ sudo passwd root
 Open the SSH configuration file in a text editor:
 
 ```bash
-sudo nano /etc/ssh/sshd_config
+sudo vim /etc/ssh/sshd_config
 ```
 
 ### 3. Update the SSH Configuration
