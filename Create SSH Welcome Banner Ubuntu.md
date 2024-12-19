@@ -1,4 +1,4 @@
-# Steps to Hide the Welcome Banner
+# Steps to Hide the Ubuntu Welcome Banner
 
 ## Disable Dynamic MOTD Generation
 
