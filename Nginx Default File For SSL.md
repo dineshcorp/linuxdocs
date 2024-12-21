@@ -5,7 +5,7 @@ This document provides the default configuration file for an Nginx server, along
 ---
 
 ## Default Server Configuration
-
+### Copy and paste this nginx default file configuration in /etc/nginx/sites-available/default file
 ```nginx
 server {
         listen 80 default_server;
