@@ -81,7 +81,7 @@ server {
         }
 }
 ```
-### Replace the "/etc/nginx/ssl/nginx-selfsigned.crt" and "/etc/nginx/ssl/nginx-selfsigned.key"  with your actual SSL certificate paths 
+### Replace the "/etc/nginx/ssl/nginx-selfsigned.crt" and "/etc/nginx/ssl/nginx-selfsigned.key"  with your actual SSL certificate paths and also update the server Local IP/Domain/Public IP in valid referers section
 ### Check the nginx syntax for any errors
 
 ```
