@@ -87,5 +87,4 @@ server {
 
 ```
 systemctl restart nginx.service
-
 ```
