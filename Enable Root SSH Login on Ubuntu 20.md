@@ -1,4 +1,4 @@
-# Enable Root SSH Login on Ubuntu 20
+# Enable Root SSH Login On Ubuntu 20
 
 This guide explains how to enable root SSH login on Ubuntu 20 by editing the SSH configuration file, setting a root password, and restarting the SSH service.
 
