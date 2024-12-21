@@ -1,8 +1,9 @@
-# Install PHP Composer on RHEL8
+# Install PHP Composer on Ubuntu 20.04
 
-## Install the Required PHP Packages
+## Update and Install Required PHP Packages
 ```bash
-yum -y install php php-cli php-zip php-json
+sudo apt update
+sudo apt install -y php php-cli php-zip php-json
 ```
 
 ## Download Composer Executable File
@@ -12,8 +13,8 @@ curl -sS https://getcomposer.org/installer | php
 
 ## Make Composer Available Globally
 ```bash
-mv composer.phar /usr/local/bin/composer
-chmod +x /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
 ```
 
 ## Check the Version of PHP Composer
@@ -24,3 +25,4 @@ composer -V
 ## Update Composer Version
 ```bash
 composer self-update
+```
