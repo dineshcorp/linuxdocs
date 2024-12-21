@@ -1,4 +1,12 @@
-# Default Server Configuration
+# Nginx Default Server Configuration
+
+This document provides the default configuration file for an Nginx server, along with detailed explanations for each directive.
+
+---
+
+## Default Server Configuration
+
+```nginx
 server {
         listen 80 default_server;
         listen [::]:80 default_server;
@@ -25,7 +33,7 @@ server {
                 try_files $uri $uri/ @php;
         }
 
-        # Pass PHP scripts to FastCGI server
+        # pass PHP scripts to FastCGI server
         location @php {
                 rewrite ^/(.*)$ /$1.php last;
         }
