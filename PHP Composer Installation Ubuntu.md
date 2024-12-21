@@ -1,4 +1,4 @@
-# Install PHP Composer on Ubuntu 20.04
+# Install PHP Composer On Ubuntu 20.04
 
 ## Update and Install Required PHP Packages
 ```bash
