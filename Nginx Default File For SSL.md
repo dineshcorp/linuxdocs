@@ -81,4 +81,4 @@ server {
         }
 }
 
-##Replace the "/etc/nginx/ssl/nginx-selfsigned.crt" and "/etc/nginx/ssl/nginx-selfsigned.key"  with your actual SSL certificate paths and restart the nginx service to apply the changes
+## Replace the "/etc/nginx/ssl/nginx-selfsigned.crt" and "/etc/nginx/ssl/nginx-selfsigned.key"  with your actual SSL certificate paths and restart the nginx service to apply the changes
