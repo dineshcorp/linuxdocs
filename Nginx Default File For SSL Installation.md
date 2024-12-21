@@ -1,4 +1,4 @@
-# Nginx Default Server Configuration For SSL
+# Nginx Default Configuration For SSL Installation
 
 This document provides the default configuration file for an Nginx server, along with detailed explanations for each directive.
 
