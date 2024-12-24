@@ -1,6 +1,11 @@
 # CentOS 7.9 Updated Repositories
 
-To update and configure the repositories for CentOS 7.9, modify the `CentOS-Base.repo` file:
+First delete the default CentOS-Base.repo file
+```
+rm -rf /etc/yum.repos.d/CentOS-Base.repo
+```
+
+Now create a new `CentOS-Base.repo` file and add the Repository configuration:
 
 ```bash
 vi /etc/yum.repos.d/CentOS-Base.repo
