@@ -1,4 +1,4 @@
-# CentOS 7.9 Updated Repositories
+# CentOS 7.9 Updated Vault Repositories
 
 First delete the default CentOS-Base.repo file
 ```
