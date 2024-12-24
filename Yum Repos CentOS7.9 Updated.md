@@ -11,7 +11,7 @@ Now create a new `CentOS-Base.repo` file and add the Repository configuration:
 vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 
-## Repository Configuration
+Copy and paste the below Repository Configuration
 
 ```
 [base]
@@ -43,7 +43,7 @@ enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 
 ```
-## Now test the repos by installing a random package 
+Now test the repos by installing a random package 
 
 ```
 yum install tree -y
