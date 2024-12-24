@@ -11,7 +11,7 @@ Now create a new `CentOS-Base.repo` file and add the Repository configuration:
 vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 
-Copy and paste the below Repository Configuration
+Copy and paste the below Repository Configuration in CentOS-Base.repo file
 
 ```
 [base]
