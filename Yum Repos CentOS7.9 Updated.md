@@ -38,3 +38,8 @@ enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 
 ```
+## Now test the repos by installing a random package 
+
+```
+yum install tree
+```
