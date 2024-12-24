@@ -3,7 +3,7 @@
 To update and configure the repositories for CentOS 7.9, modify the `CentOS-Base.repo` file:
 
 ```bash
-vim /etc/yum.repos.d/CentOS-Base.repo
+vi /etc/yum.repos.d/CentOS-Base.repo
 ```
 
 ## Repository Configuration
