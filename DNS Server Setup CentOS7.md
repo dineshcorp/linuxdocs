@@ -22,7 +22,7 @@
 
 ### Install Required Packages
 ```bash
-yum install bind bind-utils -y
+yum install bind bind-utils vim -y
 ```
 
 ### Modify the Configuration File
