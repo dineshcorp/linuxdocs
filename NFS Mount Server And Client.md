@@ -1,4 +1,6 @@
-# Install NFS (Network File System) on Both Servers
+# NFS Mount Server And Client Configuration
+
+## Install NFS (Network File System) on Both Servers
 
 ```bash
 yum install nfs-utils
