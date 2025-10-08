@@ -1,0 +1,26 @@
+# 🌀 Local TURN Server Full Configuration Guide (Ubuntu 20.04)
+
+This guide provides a complete, end-to-end setup for configuring a **local-only TURN server** using **Coturn** with **Asterisk** and **PJSIP**, ideal for **WebRTC** and **SIP NAT traversal** in a private LAN environment (no public IP or domain required).
+
+---
+
+## 📋 Overview
+
+| Component | Details |
+|------------|----------|
+| **OS** | Ubuntu 20.04 |
+| **TURN Software** | [Coturn](https://github.com/coturn/coturn) |
+| **Use Case** | Internal-only TURN relay (no external IP) |
+| **Local IP** | `172.25.65.81` |
+| **Integrated Systems** | Asterisk + PJSIP |
+| **Protocol Ports** | 3478 (UDP/TCP), 5349 (TLS) |
+
+---
+
+## ⚙️ 1. Coturn Installation
+
+Update system and install Coturn:
+
+```bash
+sudo apt update
+sudo apt install coturn -y
